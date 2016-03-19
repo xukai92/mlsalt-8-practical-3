@@ -1,0 +1,55 @@
+MT evaluation scorer began on 2016 Mar 18 at 23:14:42
+command line:  /home/wjb31/MLSALT/MLSALT8/practicals//practical-1//scripts/mteval-v13-ADRIA.pl -b -d 2 -r scoring/outA.ref.sgml -s scoring/outA.src.sgml -t scoring/outA.hyp.sgml
+  Evaluation of src-to-trg translation using:
+    src set "y" (1 docs, 30 segs)
+    ref set "y" (1 refs)
+    tst set "y" (1 systems)
+
+  BLEU score using 4-grams = 1.0000 for system "1" on segment 1 of document "y" (5 words)
+  BLEU score using 4-grams = 0.2122 for system "1" on segment 2 of document "y" (23 words)
+  BLEU score using 4-grams = 0.1556 for system "1" on segment 3 of document "y" (28 words)
+  BLEU score using 4-grams = 0.0975 for system "1" on segment 4 of document "y" (19 words)
+  BLEU score using 4-grams = 0.3238 for system "1" on segment 5 of document "y" (16 words)
+  BLEU score using 4-grams = 0.2604 for system "1" on segment 6 of document "y" (21 words)
+  BLEU score using 4-grams = 0.2187 for system "1" on segment 7 of document "y" (16 words)
+  BLEU score using 4-grams = 0.6350 for system "1" on segment 8 of document "y" (23 words)
+  BLEU score using 4-grams = 0.4514 for system "1" on segment 9 of document "y" (30 words)
+  BLEU score using 4-grams = 0.8091 for system "1" on segment 10 of document "y" (14 words)
+  BLEU score using 4-grams = 0.2148 for system "1" on segment 11 of document "y" (27 words)
+  BLEU score using 4-grams = 0.2197 for system "1" on segment 12 of document "y" (14 words)
+  BLEU score using 4-grams = 0.8394 for system "1" on segment 13 of document "y" (18 words)
+  BLEU score using 4-grams = 1.0000 for system "1" on segment 14 of document "y" (11 words)
+  BLEU score using 4-grams = 0.4978 for system "1" on segment 15 of document "y" (23 words)
+  BLEU score using 4-grams = 0.6710 for system "1" on segment 16 of document "y" (31 words)
+  BLEU score using 4-grams = 0.2011 for system "1" on segment 17 of document "y" (29 words)
+  BLEU score using 4-grams = 0.2692 for system "1" on segment 18 of document "y" (39 words)
+  BLEU score using 4-grams = 0.8101 for system "1" on segment 19 of document "y" (33 words)
+  BLEU score using 4-grams = 0.8409 for system "1" on segment 20 of document "y" (8 words)
+  BLEU score using 4-grams = 0.5565 for system "1" on segment 21 of document "y" (14 words)
+  BLEU score using 4-grams = 0.8514 for system "1" on segment 22 of document "y" (48 words)
+  BLEU score using 4-grams = 1.0000 for system "1" on segment 23 of document "y" (14 words)
+  BLEU score using 4-grams = 0.9048 for system "1" on segment 24 of document "y" (10 words)
+  BLEU score using 4-grams = 0.1512 for system "1" on segment 25 of document "y" (21 words)
+  BLEU score using 4-grams = 1.0000 for system "1" on segment 26 of document "y" (11 words)
+  BLEU score using 4-grams = 0.1729 for system "1" on segment 27 of document "y" (7 words)
+  BLEU score using 4-grams = 0.0631 for system "1" on segment 28 of document "y" (20 words)
+  BLEU score using 4-grams = 0.0752 for system "1" on segment 29 of document "y" (30 words)
+  BLEU score using 4-grams = 0.3215 for system "1" on segment 30 of document "y" (28 words)
+BLEU score using   4-grams = 0.4778 for system "1" on document "y" (30 segments, 631 words)
+
+BLEU score = 0.4778 (0.4778 * 1.0000) for system "1"
+
+# ------------------------------------------------------------------------
+
+Individual N-gram scoring
+        1-gram   2-gram   3-gram   4-gram   5-gram   6-gram   7-gram   8-gram   9-gram
+        ------   ------   ------   ------   ------   ------   ------   ------   ------
+ BLEU:  0.7417   0.5125   0.4098   0.3346   0.2759   0.2349   0.1969   0.1678   0.1468  "1"
+
+# ------------------------------------------------------------------------
+Cumulative N-gram scoring
+        1-gram   2-gram   3-gram   4-gram   5-gram   6-gram   7-gram   8-gram   9-gram
+        ------   ------   ------   ------   ------   ------   ------   ------   ------
+
+ BLEU:  0.7417   0.6165   0.5381   0.4778   0.4281   0.3874   0.3517   0.3206   0.2940  "1"
+MT evaluation scorer ended on 2016 Mar 18 at 23:14:42
